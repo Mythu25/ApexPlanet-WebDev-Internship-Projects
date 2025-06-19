@@ -1,21 +1,29 @@
-Great job on completing Task 1! You've demonstrated a solid understanding of the foundational concepts in web development. Your implementation shows:
+✅ Task 1: Completed
 
-Good grasp of HTML structure – Proper use of semantic tags and layout elements.
+This task marks the beginning of my journey into web development as part of the AP Internship program. The objective was to build a basic static webpage using HTML and CSS.
 
-Basic CSS styling skills – Applied styles enhance the visual presentation, showing attention to detail.
+🔍 What I Learned:
 
-Responsiveness/Clarity – The layout works well across screen sizes (if applicable), which is crucial in modern web development.
+Structuring webpages using semantic HTML elements
 
-Code organization – The code is readable and logically structured.
+Applying CSS to enhance the look and feel of the page
 
-
-For continued improvement:
-
-Try to add comments in the code to explain sections.
-
-Focus on enhancing interactivity using basic JavaScript (if required in the next task).
-
-Explore using more CSS properties or external stylesheets for better code separation.
+Organizing code for better readability and maintainability
 
 
-Keep up the consistent effort and curiosity to learn more!
+🛠️ Skills Demonstrated:
+
+HTML5
+
+CSS3
+
+Basic responsive design principles
+
+Clean and readable code structure
+
+
+💡 Reflection:
+
+Completing this task helped strengthen my foundation in front-end development. It gave me hands-on experience in building a webpage from scratch and understanding how structure and style come together in web design.
+
+
