@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>QuizzyLaugh: Emoji Fun!</title>
+  <link rel="tylesheet" href="quizstyle.css" />
+</head>
+<body>
+
+  <!-- 🌟 Header (Dark & Bold) -->
+  <header>
+    🎯 QuizzyLaugh 🎉
+    <small>Learn Smart & Laugh Loud 😂</small>
+  </header>
+
+  <div class="container">
+    <!-- 🧠 Quiz Section -->
+    <section id="quiz-section">
+      <h2>🧠 Take the Quiz</h2>
+      <p id="question">Loading question...</p>
+      <div id="options"></div>
+      <button id="nextBtn" onclick="nextQuestion()" style="display:none;">Next ➡️</button>
+      <p id="score"></p>
+    </section>
+
+    <!-- 😂 Joke Section -->
+    <section>
+      <h2>😂 Laugh Break</h2>
+      <button onclick="getJoke()">Tell Me a Joke! 🤪</button>
+      <p id="joke">Click to laugh! 😄</p>
+    </section>
+  </div>
+  <script src="quizscript.js"></script>
+</body>
+</html>
