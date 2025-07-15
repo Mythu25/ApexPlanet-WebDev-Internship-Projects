@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>📝 Note Keeper</title>
+  <link="stylesheet" href="task4style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="dark-toggle" onclick="toggleDarkMode()">🌓 Toggle Dark Mode</div>
+    <h1>📝 Note Keeper</h1>
+
+    <form id="noteForm">
+      <input type="text" id="title" placeholder="🖊️ Note Title" required>
+      <textarea id="content" placeholder="🧠 Write your note here..." required></textarea>
+      <input type="date" id="dueDate" required>
+      <input type="text" id="tags" placeholder="🏷️ Tags (comma separated)">
+      <select id="category">
+        <option value="General">📌 General</option>
+        <option value="Work">💼 Work</option>
+        <option value="Personal">🏠 Personal</option>
+      </select>
+      <label><input type="checkbox" id="pinNote"> 📌 Pin this note</label>
+      <button type="submit">➕ Add Note</button>
+    </form>
+
+    <div class="search-section">
+      <input type="text" id="searchBar" placeholder="🔍 Search notes..." oninput="searchNotes()">
+    </div>
+
+    <div class="controls">
+      <label for="filter">Filter by Category:</label>
+      <select id="filter" onchange="displayNotes()">
+        <option value="all">All</option>
+        <option value="General">General</option>
+        <option value="Work">Work</option>
+        <option value="Personal">Personal</option>
+      </select>
+      <button onclick="exportNotes()">📤 Export Notes</button>
+    </div>
+
+    <div id="notesContainer" class="note-container"></div>
+  </div>
+  <script src="task4sript.js"></script>
+</body>
+</html>
